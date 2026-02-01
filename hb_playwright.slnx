@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/解决方案项/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="hb_playwright/hb_playwright.csproj" />
+</Solution>

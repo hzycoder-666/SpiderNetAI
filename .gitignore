@@ -1,0 +1,450 @@
+# ================================
+# 操作系统生成文件
+# ================================
+
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+*.lnk
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+.fseventsd
+
+# Linux
+*~
+
+# ================================
+# 开发环境和IDE
+# ================================
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.tt
+*.tt_s
+*.cachefile
+*.vc.db
+*.vc.db-shm
+*.vc.db-wal
+*.[Cc]ache
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.ruleset
+ipch/
+[Mm]icrosoft.Common.props
+[Mm]icrosoft.[Cc]pp.*.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# ================================
+# .NET Core / .NET 5+
+# ================================
+
+# 编译输出
+[Bb]in/
+[Oo]bj/
+[Oo]utput/
+[Ll]ogs/
+[Tt]emp/
+
+# 依赖项
+packages/
+**/[Pp]ackages/*.nupkg
+**/.nuget/
+.nuget/
+nuget.exe
+project.lock.json
+
+# 测试结果
+*.trx
+*.html
+TestResults/
+
+# MSTest 文件
+*.TestSettings
+*.testlog
+*.coverage
+*.coveragexml
+
+# 构建中间文件
+**/wwwroot/lib/
+**/_Resharper.*
+*.resharper
+_ReSharper.*
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ================================
+# 运行时文件
+# ================================
+
+# Docker
+docker-compose.*.yml
+.env
+.env.local
+.dockerignore
+
+# 本地配置文件
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+*.Development.config
+*.Local.config
+connectionStrings.config
+
+# 用户特定文件
+*.userprefs
+
+# ================================
+# 包管理器
+# ================================
+
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Bower
+bower_components/
+.bower-cache/
+.bower-registry/
+.bower-tmp/
+
+# Azure Functions
+.func/
+.azurefunctions/
+
+# ================================
+# 数据库和缓存
+# ================================
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# SQLite
+*.sqlite3
+*.db
+*.sqlite
+
+# Redis
+dump.rdb
+
+# Entity Framework 迁移缓存
+**/Migrations/*Designer.cs
+**/Migrations/*.resx
+
+# ================================
+# 日志和临时文件
+# ================================
+
+*.log
+*.log.*
+*.tmp
+*.temp
+*.tmp.*
+.tmp/
+
+# ================================
+# 项目特定文件
+# ================================
+
+# 爬虫相关（你的项目）
+crawl_results/
+downloads/
+cache/
+screenshots/
+data/
+!data/.gitkeep
+
+# Playwright 浏览器
+.playwright/
+ms-playwright/
+
+# 敏感数据
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.cer
+*.jks
+keystore.jks
+
+# ================================
+# 文档和工具
+# ================================
+
+# 文档生成
+docs/_site/
+_site/
+.sass-cache/
+
+# 覆盖率报告
+coverage/
+.coverage
+lcov.info
+
+# 分析工具
+*.analyzer
+*.memory
+*.heap
+*.gc
+*.gcov
+
+# ================================
+# 测试相关
+# ================================
+
+# Playwright 测试结果
+test-results/
+playwright-report/
+playwright/.cache/
+
+# NUnit
+TestResult.xml
+
+# xUnit
+xunit.xml
+
+# ================================
+# 构建和部署
+# ================================
+
+# 发布目录
+publish/
+deploy/
+dist/
+build/
+*.build.zip
+*.deploy.zip
+
+# Docker 构建
+**/Dockerfile
+**/.dockerignore
+
+# CI/CD
+.github/workflows/*.yml
+!.github/workflows/ci.yml
+!.github/workflows/cd.yml
+.gitlab-ci.yml
+.azure-pipelines.yml
+.circleci/
+.travis.yml
+Jenkinsfile
+bitbucket-pipelines.yml
+
+# ================================
+# IDE 特定配置（按需保留）
+# ================================
+
+# 如果你使用 Rider，取消注释
+# .idea/
+# *.sln.iml
+
+# 如果你使用 VS Code，取消注释
+# .vscode/
+
+# ================================
+# 性能分析
+# ================================
+
+# 性能分析器文件
+*.diagsession
+*.vsp
+*.vsps
+
+# 内存转储
+*.dmp
+
+# ================================
+# 媒体文件
+# ================================
+
+# 大文件（考虑使用 Git LFS）
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mp3
+*.wav
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ================================
+# 安全注意事项
+# ================================
+
+# 永远不要提交以下文件！
+secrets/
+credentials/
+passwords/
+*.secret
+*.private
+config.private.json
+config.secrets.json
+
+# API 密钥等
+.env
+.local.env
+*.env.local
+
+# ================================
+# 异常和错误文件
+# ================================
+
+# 崩溃报告
+*.crash
+*.error
+*.stackdump
+
+# 核心转储
+core
+core.*
+
+# ================================
+# 临时文件模式
+# ================================
+
+# Visual Studio 临时文件
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# SQL Server 文件
+*.bak
+*.bacpac
+
+# 压缩备份
+*.zip
+*.tgz
+*.tar.gz
+
+# ================================
+# 自定义规则（根据项目需要添加）
+# ================================
+
+# 爬虫缓存
+/cache/
+!cache/.gitkeep
+
+# 抓取结果
+/results/
+!results/.gitkeep
+
+# 浏览器数据
+/browser-data/
+
+# 机器学习模型
+/models/
+*.model
+*.onnx
+*.pb
+
+# 数据集
+/datasets/
+*.csv
+*.jsonl
+
+# ================================
+# 最后：允许空目录占位符
+# ================================
+
+# 允许空目录的 .gitkeep 文件
+!.gitkeep
+!**/.gitkeep
+
+# ================================
+# 特定于你的 AI 爬虫项目
+# ================================
+
+# AI 模型相关
+*.h5
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# 配置文件（开发环境）
+config.local.yaml
+config.dev.json
+
+# 浏览器自动化相关
+/playwright-browsers/
+/geckodriver/
+/chromedriver/
+/edgedriver/
+
+# 爬虫状态文件
+state.json
+progress.json
+checkpoint.json
+
+# 下载文件
+/downloads/
+!downloads/.gitkeep
+
+# 截图
+/screenshots/
+!screenshots/.gitkeep
+
+# 日志目录
+/logs/
+!logs/.gitkeep
+
+# 数据导出
+/exports/
+!exports/.gitkeep
+
+# 临时工作目录
+/temp/
+!temp/.gitkeep
+
+# ================================
+# 通用开发规则
+# ================================
+
+# 但如果需要，可以包含特定文件类型
+!*.cs
+!*.csproj
+!*.sln
+!*.json
+!*.config
+!*.md
+!*.yml
+!*.yaml
